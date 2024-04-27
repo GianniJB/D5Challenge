@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-icon {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#menu-icon ion-icon {
+    font-size: 1.7em;
+}
+
+.sidebar-icons {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icons p {
+    margin: 0;
+}
+
+.sidebar-icons ion-icon {
+    font-size: 1.7em;
+}
+
+#main {
+    width: 100%;
+}
+
+#topbar {
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 70%;
+    cursor: pointer;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+
+#search-btn {
+    padding: 0 0.7em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+.topbar-icons ion-icon {
+    font-size: 1.7em;
+    padding: 0 0.3em;
+    cursor: pointer;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.img-thumb {
+    width: 400px;
+    height: auto;
+}
+
+.lowvideo-wrap {
+    display: flex;
+}
+
+.img-logo {
+    height: 50px;
+    width: auto;
+    padding-top: 0.8em;
+    padding-right: 0.8em;
+}
+
+.info {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.info h3,p {
+    margin: 0;
+}
